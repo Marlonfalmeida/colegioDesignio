@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             <Button variant="primary" withIcon>
               Quero Agendar uma Visita
             </Button>
-            <Button variant="outline" className="text-white border-white hover:bg-white hover:text-brand-purple">
+            <Button variant="outline" className="text-white border-white hover:bg-purple-900 hover:text-brand-white">
               Conheça Nossa Proposta
             </Button>
           </div>

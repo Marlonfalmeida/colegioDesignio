@@ -24,7 +24,8 @@ const Header: React.FC = () => {
         {/* Logo Area */}
         <div className="flex items-center gap-2 z-50">
           <div className="w-10 h-10 bg-brand-lime rounded-lg transform rotate-3 flex items-center justify-center">
-            <span className="text-brand-purple font-black text-xl">D</span>
+            <img src="img/favicon.png " alt="logo do colégio desígnio" />
+            {/* <span className="text-brand-purple font-black text-xl">D</span> */}
           </div>
           <span className={`text-2xl font-heading font-bold tracking-tight ${isScrolled ? 'text-white' : 'text-white'}`}>
             Colégio <span className="text-brand-lime">Desígnio</span>

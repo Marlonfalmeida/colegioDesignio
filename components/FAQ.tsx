@@ -32,7 +32,7 @@ const FAQ: React.FC = () => {
             <div key={index} className="border border-gray-200 rounded-2xl overflow-hidden transition-all duration-300 hover:border-brand-purple/50">
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full flex items-center justify-between p-6 bg-gray-50 text-left focus:outline-none"
+                className="w-full flex items-center justify-between p-6 bg-gray-50 text-left focus:outline-none text-lime"
               >
                 <span className="text-lg font-bold text-brand-purple">{item.question}</span>
                 {openIndex === index ? (
