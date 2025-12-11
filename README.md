@@ -1,20 +1,49 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="300" alt="Colégio Desígnio Logo" src="./img/logo.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Colégio Desígnio - Website
 
-This contains everything you need to run your app locally.
+Website oficial do Colégio Desígnio, desenvolvido com as melhores tecnologias web modernas para proporcionar uma experiência otimizada aos alunos, pais e visitantes.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🛠️ Tecnologias Utilizadas
 
-## Run Locally
+- **React 19** - Biblioteca JavaScript para construção de interfaces de usuário
+- **TypeScript** - Superset da linguagem JavaScript com tipagem estática
+- **Vite** - Build tool e dev server ultra-rápido
+- **Tailwind CSS** - Framework CSS utilitário para estilização
+- **Lucide React** - Biblioteca de ícones em SVG
 
-**Prerequisites:**  Node.js
+## 🚀 Como Executar Localmente
 
+**Pré-requisitos:** Node.js (v16 ou superior)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+2. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Abra [http://localhost:5173](http://localhost:5173) no seu navegador
+
+## 📦 Build para Produção
+
+Para criar uma build otimizada para produção:
+
+```bash
+npm run build
+```
+
+## 👁️ Preview da Build
+
+Para visualizar a build de produção localmente:
+
+```bash
+npm run preview
+```
