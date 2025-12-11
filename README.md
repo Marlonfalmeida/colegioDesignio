@@ -30,7 +30,7 @@ Website oficial do Colégio Desígnio, desenvolvido com as melhores tecnologias 
    npm run dev
    ```
 
-3. Abra [http://localhost:5173](http://localhost:5173) no seu navegador
+3. Abra [http://localhost:3001](http://localhost:3001) no seu navegador
 
 ## 📦 Build para Produção
 
