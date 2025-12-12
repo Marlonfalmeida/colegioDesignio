@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 bg-brand-lime rounded-lg transform rotate-3 flex items-center justify-center">
-                <img src="../img/favicon.png" alt="logo do colégio desígnio" className="w-6" />
+                <img src="img/favicon.png" alt="logo do colégio desígnio" className="w-6" />
                 {/* <span className="text-brand-purple font-black text-lg">D </span> */}
               </div>
               <span className="text-xl font-heading font-bold text-white">
